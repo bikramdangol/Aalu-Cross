@@ -21,6 +21,7 @@ class ViewController: UIViewController {
 
     @IBOutlet var winMessageLabel: UILabel!
     @IBOutlet var restartButton: UIButton!
+    
     @IBAction func buttonPressed(_ sender: UIButton) {
         
         let currentPosition = sender.tag - 1
@@ -46,7 +47,7 @@ class ViewController: UIViewController {
                 {
                     isGameOver = true
                     
-                if(boardStatus[winningCombination[0]] == 1)
+                    if(boardStatus[winningCombination[0]] == 1)
                     {
                         winMessageLabel.text = "Noughts has won!"
                     }
@@ -57,6 +58,28 @@ class ViewController: UIViewController {
                     winMessageLabel.isHidden = false
                     restartButton.isHidden = false
                     UIView.animate(withDuration: 1, animations: { 
+                        self.moveMessageLabelAndButton(by: 500.0)
+                    })
+                    break
+                }
+            }
+            if(!isGameOver)
+            {
+                var isDraw = true
+                for value in boardStatus
+                {
+                    if value == 0
+                    {
+                        isDraw = false
+                        break
+                    }
+                }
+                if isDraw == true
+                {
+                    winMessageLabel.text = "It's Draw."
+                    winMessageLabel.isHidden = false
+                    restartButton.isHidden = false
+                    UIView.animate(withDuration: 1, animations: {
                         self.moveMessageLabelAndButton(by: 500.0)
                     })
                 }

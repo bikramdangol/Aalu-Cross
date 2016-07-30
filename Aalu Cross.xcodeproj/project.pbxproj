@@ -525,6 +525,7 @@
 				59E78C701D4C5F1D004654C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59E78C711D4C5F1D004654C0 /* Build configuration list for PBXNativeTarget "Aalu CrossTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +534,7 @@
 				59E78C731D4C5F1D004654C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59E78C741D4C5F1D004654C0 /* Build configuration list for PBXNativeTarget "Aalu CrossUITests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +543,7 @@
 				59E78C761D4C5F1D004654C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
