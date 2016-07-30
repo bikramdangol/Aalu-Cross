@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59E78C4A1D4C5F1D004654C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E78C491D4C5F1D004654C0 /* AppDelegate.swift */; };
+		59E78C4C1D4C5F1D004654C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E78C4B1D4C5F1D004654C0 /* ViewController.swift */; };
+		59E78C4F1D4C5F1D004654C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E78C4D1D4C5F1D004654C0 /* Main.storyboard */; };
+		59E78C511D4C5F1D004654C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59E78C501D4C5F1D004654C0 /* Assets.xcassets */; };
+		59E78C541D4C5F1D004654C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59E78C521D4C5F1D004654C0 /* LaunchScreen.storyboard */; };
+		59E78C5F1D4C5F1D004654C0 /* Aalu_CrossTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E78C5E1D4C5F1D004654C0 /* Aalu_CrossTests.swift */; };
+		59E78C6A1D4C5F1D004654C0 /* Aalu_CrossUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E78C691D4C5F1D004654C0 /* Aalu_CrossUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59E78C5B1D4C5F1D004654C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59E78C3E1D4C5F1D004654C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59E78C451D4C5F1D004654C0;
+			remoteInfo = "Aalu Cross";
+		};
+		59E78C661D4C5F1D004654C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 59E78C3E1D4C5F1D004654C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59E78C451D4C5F1D004654C0;
+			remoteInfo = "Aalu Cross";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59E78C461D4C5F1D004654C0 /* Aalu Cross.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aalu Cross.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E78C491D4C5F1D004654C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		59E78C4B1D4C5F1D004654C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		59E78C4E1D4C5F1D004654C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59E78C501D4C5F1D004654C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59E78C531D4C5F1D004654C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59E78C551D4C5F1D004654C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59E78C5A1D4C5F1D004654C0 /* Aalu CrossTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aalu CrossTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E78C5E1D4C5F1D004654C0 /* Aalu_CrossTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aalu_CrossTests.swift; sourceTree = "<group>"; };
+		59E78C601D4C5F1D004654C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59E78C651D4C5F1D004654C0 /* Aalu CrossUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aalu CrossUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E78C691D4C5F1D004654C0 /* Aalu_CrossUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aalu_CrossUITests.swift; sourceTree = "<group>"; };
+		59E78C6B1D4C5F1D004654C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59E78C431D4C5F1D004654C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E78C571D4C5F1D004654C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E78C621D4C5F1D004654C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59E78C3D1D4C5F1D004654C0 = {
+			isa = PBXGroup;
+			children = (
+				59E78C481D4C5F1D004654C0 /* Aalu Cross */,
+				59E78C5D1D4C5F1D004654C0 /* Aalu CrossTests */,
+				59E78C681D4C5F1D004654C0 /* Aalu CrossUITests */,
+				59E78C471D4C5F1D004654C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59E78C471D4C5F1D004654C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59E78C461D4C5F1D004654C0 /* Aalu Cross.app */,
+				59E78C5A1D4C5F1D004654C0 /* Aalu CrossTests.xctest */,
+				59E78C651D4C5F1D004654C0 /* Aalu CrossUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59E78C481D4C5F1D004654C0 /* Aalu Cross */ = {
+			isa = PBXGroup;
+			children = (
+				59E78C491D4C5F1D004654C0 /* AppDelegate.swift */,
+				59E78C4B1D4C5F1D004654C0 /* ViewController.swift */,
+				59E78C4D1D4C5F1D004654C0 /* Main.storyboard */,
+				59E78C501D4C5F1D004654C0 /* Assets.xcassets */,
+				59E78C521D4C5F1D004654C0 /* LaunchScreen.storyboard */,
+				59E78C551D4C5F1D004654C0 /* Info.plist */,
+			);
+			path = "Aalu Cross";
+			sourceTree = "<group>";
+		};
+		59E78C5D1D4C5F1D004654C0 /* Aalu CrossTests */ = {
+			isa = PBXGroup;
+			children = (
+				59E78C5E1D4C5F1D004654C0 /* Aalu_CrossTests.swift */,
+				59E78C601D4C5F1D004654C0 /* Info.plist */,
+			);
+			path = "Aalu CrossTests";
+			sourceTree = "<group>";
+		};
+		59E78C681D4C5F1D004654C0 /* Aalu CrossUITests */ = {
+			isa = PBXGroup;
+			children = (
+				59E78C691D4C5F1D004654C0 /* Aalu_CrossUITests.swift */,
+				59E78C6B1D4C5F1D004654C0 /* Info.plist */,
+			);
+			path = "Aalu CrossUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59E78C451D4C5F1D004654C0 /* Aalu Cross */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59E78C6E1D4C5F1D004654C0 /* Build configuration list for PBXNativeTarget "Aalu Cross" */;
+			buildPhases = (
+				59E78C421D4C5F1D004654C0 /* Sources */,
+				59E78C431D4C5F1D004654C0 /* Frameworks */,
+				59E78C441D4C5F1D004654C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aalu Cross";
+			productName = "Aalu Cross";
+			productReference = 59E78C461D4C5F1D004654C0 /* Aalu Cross.app */;
+			productType = "com.apple.product-type.application";
+		};
+		59E78C591D4C5F1D004654C0 /* Aalu CrossTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59E78C711D4C5F1D004654C0 /* Build configuration list for PBXNativeTarget "Aalu CrossTests" */;
+			buildPhases = (
+				59E78C561D4C5F1D004654C0 /* Sources */,
+				59E78C571D4C5F1D004654C0 /* Frameworks */,
+				59E78C581D4C5F1D004654C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59E78C5C1D4C5F1D004654C0 /* PBXTargetDependency */,
+			);
+			name = "Aalu CrossTests";
+			productName = "Aalu CrossTests";
+			productReference = 59E78C5A1D4C5F1D004654C0 /* Aalu CrossTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		59E78C641D4C5F1D004654C0 /* Aalu CrossUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59E78C741D4C5F1D004654C0 /* Build configuration list for PBXNativeTarget "Aalu CrossUITests" */;
+			buildPhases = (
+				59E78C611D4C5F1D004654C0 /* Sources */,
+				59E78C621D4C5F1D004654C0 /* Frameworks */,
+				59E78C631D4C5F1D004654C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59E78C671D4C5F1D004654C0 /* PBXTargetDependency */,
+			);
+			name = "Aalu CrossUITests";
+			productName = "Aalu CrossUITests";
+			productReference = 59E78C651D4C5F1D004654C0 /* Aalu CrossUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59E78C3E1D4C5F1D004654C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = AppCoders;
+				TargetAttributes = {
+					59E78C451D4C5F1D004654C0 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = KW2G239WVX;
+						DevelopmentTeamName = "Bikram Dangol (Personal Team)";
+						ProvisioningStyle = Automatic;
+					};
+					59E78C591D4C5F1D004654C0 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = KW2G239WVX;
+						DevelopmentTeamName = "Bikram Dangol (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59E78C451D4C5F1D004654C0;
+					};
+					59E78C641D4C5F1D004654C0 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = KW2G239WVX;
+						DevelopmentTeamName = "Bikram Dangol (Personal Team)";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 59E78C451D4C5F1D004654C0;
+					};
+				};
+			};
+			buildConfigurationList = 59E78C411D4C5F1D004654C0 /* Build configuration list for PBXProject "Aalu Cross" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 59E78C3D1D4C5F1D004654C0;
+			productRefGroup = 59E78C471D4C5F1D004654C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59E78C451D4C5F1D004654C0 /* Aalu Cross */,
+				59E78C591D4C5F1D004654C0 /* Aalu CrossTests */,
+				59E78C641D4C5F1D004654C0 /* Aalu CrossUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59E78C441D4C5F1D004654C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E78C541D4C5F1D004654C0 /* LaunchScreen.storyboard in Resources */,
+				59E78C511D4C5F1D004654C0 /* Assets.xcassets in Resources */,
+				59E78C4F1D4C5F1D004654C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E78C581D4C5F1D004654C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E78C631D4C5F1D004654C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59E78C421D4C5F1D004654C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E78C4C1D4C5F1D004654C0 /* ViewController.swift in Sources */,
+				59E78C4A1D4C5F1D004654C0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E78C561D4C5F1D004654C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E78C5F1D4C5F1D004654C0 /* Aalu_CrossTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E78C611D4C5F1D004654C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E78C6A1D4C5F1D004654C0 /* Aalu_CrossUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59E78C5C1D4C5F1D004654C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59E78C451D4C5F1D004654C0 /* Aalu Cross */;
+			targetProxy = 59E78C5B1D4C5F1D004654C0 /* PBXContainerItemProxy */;
+		};
+		59E78C671D4C5F1D004654C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59E78C451D4C5F1D004654C0 /* Aalu Cross */;
+			targetProxy = 59E78C661D4C5F1D004654C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59E78C4D1D4C5F1D004654C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59E78C4E1D4C5F1D004654C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		59E78C521D4C5F1D004654C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59E78C531D4C5F1D004654C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		59E78C6C1D4C5F1D004654C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		59E78C6D1D4C5F1D004654C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		59E78C6F1D4C5F1D004654C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Aalu Cross/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "np.com.pangait.Aalu-Cross";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		59E78C701D4C5F1D004654C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Aalu Cross/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "np.com.pangait.Aalu-Cross";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		59E78C721D4C5F1D004654C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Aalu CrossTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "np.com.pangait.Aalu-CrossTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aalu Cross.app/Aalu Cross";
+			};
+			name = Debug;
+		};
+		59E78C731D4C5F1D004654C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Aalu CrossTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "np.com.pangait.Aalu-CrossTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aalu Cross.app/Aalu Cross";
+			};
+			name = Release;
+		};
+		59E78C751D4C5F1D004654C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Aalu CrossUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "np.com.pangait.Aalu-CrossUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Aalu Cross";
+			};
+			name = Debug;
+		};
+		59E78C761D4C5F1D004654C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Aalu CrossUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "np.com.pangait.Aalu-CrossUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Aalu Cross";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59E78C411D4C5F1D004654C0 /* Build configuration list for PBXProject "Aalu Cross" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E78C6C1D4C5F1D004654C0 /* Debug */,
+				59E78C6D1D4C5F1D004654C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59E78C6E1D4C5F1D004654C0 /* Build configuration list for PBXNativeTarget "Aalu Cross" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E78C6F1D4C5F1D004654C0 /* Debug */,
+				59E78C701D4C5F1D004654C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		59E78C711D4C5F1D004654C0 /* Build configuration list for PBXNativeTarget "Aalu CrossTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E78C721D4C5F1D004654C0 /* Debug */,
+				59E78C731D4C5F1D004654C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		59E78C741D4C5F1D004654C0 /* Build configuration list for PBXNativeTarget "Aalu CrossUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E78C751D4C5F1D004654C0 /* Debug */,
+				59E78C761D4C5F1D004654C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59E78C3E1D4C5F1D004654C0 /* Project object */;
+}
